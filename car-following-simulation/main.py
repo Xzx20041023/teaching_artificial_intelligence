@@ -4,7 +4,6 @@ import argparse
 from pathlib import Path
 
 from config import Config
-from plotting import plot_time_space_diagram
 from simulator import Simulator
 
 
@@ -26,6 +25,12 @@ def main():
     parser.add_argument("--no-show", action="store_true")
     args = parser.parse_args()
 
+    # Select the headless backend before pyplot is imported.
+    if args.no_show:
+        import matplotlib
+        matplotlib.use("Agg")
+    from plotting import plot_time_space_diagram
+
     config = Config(
         experiment=args.experiment,
         time_max=args.time_max,
@@ -42,3 +47,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

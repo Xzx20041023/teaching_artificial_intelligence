@@ -1,0 +1,31 @@
+{
+  "label": "offline-rule-NOT-LLM | unguarded",
+  "seed": 3,
+  "experiment": 1,
+  "scenario_sha256": "125b81d90aecb0c6ecf80fec3b0fee78c3a4d90eb9d0ccd78b5fd861e57275c5",
+  "time_max_s": 500,
+  "time_step_s": 0.1,
+  "decision_interval_s": 1.0,
+  "target_id": 20,
+  "admitted": 295,
+  "completed": 126,
+  "unfinished": 169,
+  "min_gap_m": 1.8656894922792162,
+  "overlapping_pairs": 0,
+  "overlap_samples": 0,
+  "mean_completed_travel_time_s": 297.1809523809524,
+  "target_completed": true,
+  "target_travel_or_observed_time_s": 306.5,
+  "target_min_gap_m": 2.8991601631078083,
+  "target_acceleration_rms_mps2": 0.5254019339760604,
+  "target_jerk_rms_mps3": 0.3875941165134484,
+  "policy_stats": {
+    "decisions": 307,
+    "failures": 0,
+    "fallback_steps": 0,
+    "guard_steps": 0,
+    "clipped_decisions": 0,
+    "latency_s": 0.0034840996377170086
+  },
+  "actual_api_requests": 0
+}

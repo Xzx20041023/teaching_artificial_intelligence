@@ -1,0 +1,9 @@
+{
+  "attempt": "initial smoke test before retained probes",
+  "model_requested": "glm-4-flash-250414",
+  "json_mode": false,
+  "outcome": "response received; strict JSON parsing raised JSONDecodeError",
+  "raw_reply": null,
+  "usage": null,
+  "note": "The initial launcher parsed before writing evidence. Its response body and usage were not retained. Subsequent probes persist raw replies before interpretation. Do not substitute a later reply for the missing evidence."
+}

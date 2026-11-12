@@ -21,3 +21,6 @@ car-following-simulation/results/
 
 # Local plotting cache.
 car-following-simulation/.mplconfig/
+
+# Full-fleet CSVs stay local (hundreds of MB); compact target traces are tracked.
+car-following-simulation/part2-*/**/trajectories.csv

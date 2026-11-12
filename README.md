@@ -1,5 +1,13 @@
 # AI Learning Projects
 
+## Coursework Part II extension
+
+See the [Chinese quick guide](car-following-simulation/PART2_中文说明.md),
+[technical report draft](car-following-simulation/PART2_REPORT.md), and
+[reproduction guide](car-following-simulation/PART2_GUIDE.md).
+The added experiments separate **offline controller tests** from a
+[real Zhipu pilot](car-following-simulation/PART2_ZHIPU_RESULTS.md).
+
 Four independent, runnable projects introduce model-based simulation, image
 classification, sequence modeling, and reinforcement learning. Each project includes a focused entry
 point and a guide that explains the main concepts and experiments.

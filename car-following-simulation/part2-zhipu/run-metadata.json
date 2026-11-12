@@ -1,0 +1,57 @@
+{
+  "argv": [
+    "--policy",
+    "api",
+    "--allow-api",
+    "--max-calls",
+    "180",
+    "--timeout",
+    "30",
+    "--min-request-interval",
+    "1",
+    "--decision-interval",
+    "2",
+    "--seeds",
+    "1",
+    "--output",
+    "car-following-simulation/part2-zhipu"
+  ],
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2",
+  "sources_sha256": {
+    "config.py": "cfd58542cc7be02292ce778fbd8454375d09fc0851accdfb279f6006137bed48",
+    "llm_policy.py": "2e0d39ecf0296efa7755c2498643a57eda48e5275611f528b18f4ff9e6c0acdd",
+    "main.py": "134a08937ea3b032174bdc9cc66e7d5ae153a5bc8586b52b1edb86014339f023",
+    "part2_simulator.py": "fe9afb09384bea8bc4f7d47443ce86cf471a25cc678cc582d213a0aa99ace0e8",
+    "plotting.py": "ec0f6bb71d798a319c2d7b0c583efccfda9c27864c42a84b4ba21a9838adc4dc",
+    "run_part2.py": "36777bef769b102228c3a9ac1b81088810ae3c83a359614aab866bdb6b10553e",
+    "simulator.py": "9ba0376c87dff0dbceb758cefcbdb4a1c490c39ebf027be453dd4989fd864871",
+    "test_part2.py": "5cd4c24138b0db92a4ef34e1995b1efdef0331a76d20e7726308b7476a2e6331",
+    "test_simulation.py": "4993c9542dbcdf0faf525116e0f3367cbfde009bef0d5906c2f69cc5a5ff24f6",
+    "vehicle.py": "4d2f9581f839171124ae5000f31e7c456ff7fa72afc4ec3420d30db3d4047c4f",
+    "vehicle_idm.py": "4a7c1fa6038087a13409d7db2713070f47833e266dd547f56864d8e91168e11c",
+    "vehicle_knn.py": "bbfd4d47f6d0689946b2157dac82123706437d5c6931b423b3e65e6f17c8853a",
+    "vehicle_llm.py": "a9e0dfcdd82eb61b1e18cc7bd1dd5d6b8c7593d14a4a7b7250e8b3c7326dcdf9",
+    "verify_part2_artifacts.py": "6162c99f74af66395fa0262cf8ff46906cb0616b68dfdb7be44eac90a85e7608"
+  },
+  "evidence": "actual-model-api",
+  "api_base_url": "https://open.bigmodel.cn/api/paas/v4",
+  "api_model": "glm-4-flash-250414",
+  "json_mode": true,
+  "parameters": {
+    "policy": "api",
+    "experiment": 1,
+    "time_max": 500,
+    "seeds": [
+      1
+    ],
+    "target_id": 20,
+    "decision_interval": 2.0,
+    "max_calls": 180,
+    "timeout": 30.0,
+    "min_request_interval": 1.0,
+    "output": "car-following-simulation\\part2-zhipu",
+    "allow_api": true
+  }
+}
